@@ -15,6 +15,7 @@ This Arduino sketch reads the long and short blinks from the MIL and converts th
 ## Software Requirements
 
 - Arduino IDE
+- `Arduino.h` — built into the Arduino IDE, no installation needed
 
 ## Installation
 

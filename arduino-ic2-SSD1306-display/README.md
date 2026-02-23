@@ -16,8 +16,9 @@ This Arduino sketch reads the long and short blinks from the MIL and converts th
 ## Software Requirements
 
 - Arduino IDE
-- Adafruit SSD1306 library
-- Adafruit GFX library
+- `Wire.h` — built into the Arduino IDE, no installation needed (required for I2C communication with the OLED)
+- `Adafruit SSD1306` library — install via Library Manager
+- `Adafruit GFX` library — install via Library Manager (dependency of Adafruit SSD1306)
 
 ## Installation
 
@@ -38,6 +39,7 @@ This Arduino sketch reads the long and short blinks from the MIL and converts th
    - Go to **Sketch > Include Library > Manage Libraries**.
    - Search for `Adafruit SSD1306` and install it.
    - Search for `Adafruit GFX` and install it.
+   - `Wire.h` is bundled with the Arduino IDE — no separate installation needed.
 
 4. **Upload the sketch:**
 
