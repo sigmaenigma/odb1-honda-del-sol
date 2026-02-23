@@ -4,7 +4,7 @@ This project reads the blinks from a Malfunction Indicator Lamp (MIL) on a Honda
 
 ## Description
 
-The script reads input from a specified GPIO pin on the Raspberry Pi, counts the number of blinks, and matches the count to a corresponding OBD1 code from a JSON file. The JSON file contains diagnostic trouble codes (DTCs) specific to the 1994 Honda Del Sol.. This Arduino sketch reads the long and short blinks from the MIL and converts them into DTC codes. The codes are then matched with predefined messages to provide a readable output.
+This Arduino sketch reads the long and short blinks from the MIL and converts them into DTC codes. The codes are then matched with predefined messages to provide a readable output via the Serial Monitor.
 
 ## Hardware Requirements
 

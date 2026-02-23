@@ -46,7 +46,7 @@ To protect your Raspberry Pi from the 12V output of the Honda Del Sol, you need 
 3. **Wiring**:
     - Connect the 12V output from the Honda Del Sol to the input of the voltage regulator.
     - Connect the ground of the voltage regulator to the ground of the Raspberry Pi.
-    - Connect the output of the voltage regulator to the GPIO pin (pin 17) on the Raspberry Pi.
+    - Connect the output of the voltage regulator to the GPIO pin (pin 18) on the Raspberry Pi.
 
 4. **Example Circuit**:
     - If using an LM7805:
